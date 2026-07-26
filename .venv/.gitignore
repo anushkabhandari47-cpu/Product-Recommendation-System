@@ -1,0 +1,19 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node (if frontend uses Node)
+node_modules/
+dist/
+build/
+
+# IDE
+.vscode/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
