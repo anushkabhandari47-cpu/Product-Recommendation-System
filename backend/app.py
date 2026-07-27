@@ -583,7 +583,7 @@ def home():
         show_modal = True
         session.pop('show_new_user_quiz', None)
     return render_template("index.html", products=products, active_category=active_category, cat_min=cat_min, cat_max=cat_max, show_new_user_modal=show_modal)
-
+@app.route
 @app.route("/products")
 def products():
     products, active_category, cat_min, cat_max = get_filtered_products(request.args)
