@@ -170,29 +170,39 @@ http://127.0.0.1:5000
 
 - 🏠 Home Page
   ![Home Page](screenshots/home.png)
+
   
 - 🔐 Login & Registration
   ![Login Page](screenshots/login.png)
   ![Register Page](screenshots/register.png)
+
   
 - 🔍 Product Search
   ![Product Search](screenshots/search.png)
+
   
 - 😊 Mood-Based Shopping
-  ![Mood Based Shopping](screenshots/mood.png)
+  ![Mood Based Shopping](screenshots/mood-shopping.png)
+
   
 - 🚀 Cold Start Questionnaire
   ![Cold Start Questionnaire](screenshots/quiz.png)
   
+  
 - 🤖 AI Shopping Chatbot
   ![AI Chatbot](screenshots/chatbot.png)
   
+  
 - ❤️ Wishlist & Favorites
   ![Wishlist](screenshots/wishlist.png)
+
   
 - 🛍️ Personalized Recommendation Results
   ![Recommendations](screenshots/recommendations.png)
 
+  
+- ⭐ Product Reviews & Ratings
+![Reviews and Ratings](screenshots/reviews.png)
 
 
 ---
