@@ -1,6 +1,8 @@
 # 🛍️ AI-Powered Smart Product Recommendation System
 
-🚀 Live Demo:
+🚀 **Live Demo:**  
+https://product-recommendation-system-mc20.onrender.com
+
 [![Live Demo](https://img.shields.io/badge/Live-Demo-green)](https://product-recommendation-system-mc20.onrender.com)
 
 An intelligent e-commerce recommendation platform built using **Flask**, **Machine Learning**, and **SQLite** that delivers personalized product recommendations based on user preferences, shopping behavior, and mood. The system also features an AI-powered shopping chatbot, secure user authentication, wishlist management, and an intelligent solution to the cold start problem.
