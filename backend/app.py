@@ -259,17 +259,21 @@ def api_chat():
         app.logger.error(f'Chatbot error: {e}')
         response = {'reply': "Sorry, I'm having trouble connecting right now.", 'recommendations': []}
     return jsonify(response)
-
 @app.route("/")
 def index():
-    # Allow anonymous users to view the storefront on the root route.
-    # Previously this redirected to login which hid products for unauthenticated visitors.
     products, active_category, cat_min, cat_max = get_filtered_products(request.args)
     show_modal = False
     if session.get('show_new_user_quiz'):
         show_modal = True
         session.pop('show_new_user_quiz', None)
-    return render_template("index.html", products=products, active_category=active_category, cat_min=cat_min, cat_max=cat_max, show_new_user_modal=show_modal)
+    return render_template(
+        "index.html",
+        products=products,
+        active_category=active_category,
+        cat_min=cat_min,
+        cat_max=cat_max,
+        show_new_user_modal=show_modal
+    )
 
 @app.route("/dashboard")
 def dashboard():
