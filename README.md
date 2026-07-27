@@ -167,16 +167,33 @@ http://127.0.0.1:5000
 
 # 📸 Screenshots
 
-Add screenshots of the following pages for a better GitHub presentation:
 
 - 🏠 Home Page
+  ![Home Page](screenshots/home.png)
+  
 - 🔐 Login & Registration
+  ![Login Page](screenshots/login.png)
+  ![Register Page](screenshots/register.png)
+  
 - 🔍 Product Search
+  ![Product Search](screenshots/search.png)
+  
 - 😊 Mood-Based Shopping
+  ![Mood Based Shopping](screenshots/mood.png)
+  
 - 🚀 Cold Start Questionnaire
+  ![Cold Start Questionnaire](screenshots/quiz.png)
+  
 - 🤖 AI Shopping Chatbot
+  ![AI Chatbot](screenshots/chatbot.png)
+  
 - ❤️ Wishlist & Favorites
+  ![Wishlist](screenshots/wishlist.png)
+  
 - 🛍️ Personalized Recommendation Results
+  ![Recommendations](screenshots/recommendations.png)
+
+
 
 ---
 
@@ -184,7 +201,6 @@ Add screenshots of the following pages for a better GitHub presentation:
 
 - 🤝 Hybrid Recommendation System (Content-Based + Collaborative Filtering)
 - 🧠 Deep Learning-Based Recommendation Models
-- ⭐ Product Reviews & Ratings
 - 📊 Recommendation Analytics Dashboard
 - 📦 Order History & Purchase Tracking
 - 💳 Payment Gateway Integration
